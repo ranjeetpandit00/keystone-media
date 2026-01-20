@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Careers | Keystone Media</title>
+  <link rel="stylesheet" href="Css/style.css" />
+</head>
+<body>
+
+<div class="top-bar">
+  ✨ Big news! Addikt joins forces with a leading creative network. 
+  <a href="#">See what’s new →</a>
+</div>
+
+<header class="header">
+  <div class="logo">
+    <img src="logo-2.png" alt="Logo">
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="work.html">Services</a>
+    <a href="Solutions.html">Solutions</a>
+    <a href="about.html">About</a>
+    <a href="Resources.html">Resources</a>
+    
+  </nav>
+
+  <button class="cta" onclick="openContact()">Contact Us →</button>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="work.html">Services</a>
+  <a href="Solutions.html">Solutions</a>
+  <a href="about.html">About</a>
+  <a href="Resources.html">Resources</a>
+  
+  <button class="mobile-cta" onclick="openContact()">Contact Us</button>
+</div>
+
+
+<!-- ================= CAREERS HERO ================= -->
+<section class="careers-hero">
+  <h1>Careers</h1>
+  <p>
+    Join a team of creators, strategists and thinkers building
+    impactful social media brands every day.
+  </p>
+  <a href="#open-roles" class="careers-btn">View Open Roles →</a>
+</section>
+
+<!-- ================= WHY WORK WITH US ================= -->
+<section class="careers-why">
+  <h2>Why Work With Us</h2>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <h3>Creative Freedom</h3>
+      <p>Work on bold ideas, campaigns and content without limits.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>Growth & Learning</h3>
+      <p>Upskill continuously with real projects and mentorship.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>Real Impact</h3>
+      <p>Your work directly impacts brands and audiences globally.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>Supportive Culture</h3>
+      <p>Collaborative team that values ideas, ownership and trust.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>Flexible Work</h3>
+      <p>Remote-friendly roles with focus on output, not hours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OPEN POSITIONS ================= -->
+<section class="careers-roles" id="open-roles">
+  <h2>Open Positions</h2>
+
+  <div class="roles-list">
+
+    <div class="role-card">
+      <h3>Social Media Manager</h3>
+      <p>Experience: 1–3 Years · Location: Remote</p>
+      <a href="#apply">Apply Now →</a>
+    </div>
+
+    <div class="role-card">
+      <h3>Content Creator (Reels & Shorts)</h3>
+      <p>Experience: 0–2 Years · Location: Hybrid</p>
+      <a href="#apply">Apply Now →</a>
+    </div>
+
+    <div class="role-card">
+      <h3>Paid Ads Specialist</h3>
+      <p>Experience: 2+ Years · Location: Remote</p>
+      <a href="#apply">Apply Now →</a>
+    </div>
+
+    <div class="role-card">
+      <h3>Social Media Intern</h3>
+      <p>Experience: Fresher · Location: Office / Remote</p>
+      <a href="#apply">Apply Now →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= HIRING PROCESS ================= -->
+<section class="careers-process">
+  <h2>Our Hiring Process</h2>
+
+  <div class="process-steps">
+    <div class="step">Apply Online</div>
+    <div class="step">Screening Call</div>
+    <div class="step">Skill Assessment</div>
+    <div class="step">Offer & Onboarding</div>
+  </div>
+</section>
+
+<!-- ================= APPLY FORM ================= -->
+<section class="careers-apply" id="apply">
+  <h2>Didn’t find a role? Apply anyway</h2>
+
+  <form action="https://formspree.io/f/abcdwxyz" method="POST">
+    <!-- 🔴 Replace above URL with your Formspree URL -->
+
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Email Address" required />
+    <input type="tel" name="phone" placeholder="Phone Number" />
+    <input type="text" name="role" placeholder="Role you’re applying for" />
+    <textarea name="message" rows="4" placeholder="Tell us about yourself"></textarea>
+
+    <button type="submit">Submit Application →</button>
+  </form>
+</section>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  ↑
+</button>
+
+
+
+
+<!-- CONTACT POPUP -->
+<div class="contact-popup" id="contactPopup">
+  <div class="contact-card">
+
+    <button class="close-btn" onclick="closeContact()">✕</button>
+
+    <div class="call-icon">
+      📞
+    </div>
+
+    <h3>Give Us A Call</h3>
+    <p>We’re here to help you with your experience.</p>
+
+    <a href="tel:+919999999999" class="call-btn">
+      Call Us Now
+    </a>
+
+  </div>
+</div>
+<!-- Vertical Quick Enquiry -->
+<div class="quick-enquiry-tab" onclick="openContact()">
+  <span>Quick Enquiry</span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

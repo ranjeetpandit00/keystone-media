@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Resources | Keystone Media</title>
+  <link rel="stylesheet" href="Css/style.css" />
+</head>
+<body>
+
+
+<div class="top-bar">
+  ✨ Big news! Addikt joins forces with a leading creative network. 
+  <a href="#">See what’s new →</a>
+</div>
+
+<header class="header">
+  <div class="logo">
+    <img src="logo-2.png" alt="Logo">
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="work.html">Services</a>
+    <a href="Solutions.html">Solutions</a>
+    <a href="about.html">About</a>
+    <a href="Careers.html">Careers</a>
+  </nav>
+
+  <button class="cta" onclick="openContact()">Contact Us →</button>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="work.html">Services</a>
+  <a href="Solutions.html">Solutions</a>
+  <a href="about.html">About</a>
+  <a href="Careers.html">Careers</a>
+  <button class="mobile-cta" onclick="openContact()">Contact Us</button>
+  
+</div>
+
+<!-- ================= RESOURCES HERO ================= -->
+<section class="resources-hero">
+  <h1>Resources</h1>
+  <p>
+    Learn, grow and scale your brand with our social media courses,
+    playbooks and growth resources.
+  </p>
+</section>
+
+<!-- ================= RESOURCES FILTER ================= -->
+<section class="resources-filter">
+  <button class="active">All</button>
+  <button>Courses</button>
+  <button>Guides</button>
+  <button>Templates</button>
+</section>
+
+<!-- ================= RESOURCES GRID ================= -->
+<section class="resources-section">
+
+  <!-- RESOURCE CARD -->
+  <div class="resource-card">
+    <span class="resource-tag">Course</span>
+    <h3>Instagram Growth Mastery</h3>
+    <p>
+      Learn how to grow, engage and monetise your Instagram
+      using proven strategies and real examples.
+    </p>
+    <div class="resource-footer">
+      <span class="price">₹1,999</span>
+      <a href="#">Buy Now →</a>
+    </div>
+  </div>
+
+  <div class="resource-card">
+    <span class="resource-tag">Guide</span>
+    <h3>Social Media Content Playbook</h3>
+    <p>
+      A step-by-step guide to creating viral reels, carousels
+      and high-performing content consistently.
+    </p>
+    <div class="resource-footer">
+      <span class="price">Free</span>
+      <a href="#">Download →</a>
+    </div>
+  </div>
+
+  <div class="resource-card">
+    <span class="resource-tag">Template</span>
+    <h3>30-Day Content Calendar</h3>
+    <p>
+      Ready-to-use content calendar for brands, creators
+      and agencies to plan posts easily.
+    </p>
+    <div class="resource-footer">
+      <span class="price">₹499</span>
+      <a href="#">Get Access →</a>
+    </div>
+  </div>
+
+  <div class="resource-card">
+    <span class="resource-tag">Course</span>
+    <h3>Paid Ads for Social Media</h3>
+    <p>
+      Learn Facebook & Instagram ads from scratch
+      and scale profitable campaigns.
+    </p>
+    <div class="resource-footer">
+      <span class="price">₹2,499</span>
+      <a href="#">Enroll →</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= RESOURCES CTA ================= -->
+<section class="resources-cta">
+  <h2>Want custom training for your team?</h2>
+  <a href="contact.html">Contact Us →</a>
+</section>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  ↑
+</button>
+
+
+
+
+<!-- CONTACT POPUP -->
+<div class="contact-popup" id="contactPopup">
+  <div class="contact-card">
+
+    <button class="close-btn" onclick="closeContact()">✕</button>
+
+    <div class="call-icon">
+      📞
+    </div>
+
+    <h3>Give Us A Call</h3>
+    <p>We’re here to help you with your experience.</p>
+
+    <a href="tel:+919999999999" class="call-btn">
+      Call Us Now
+    </a>
+
+  </div>
+</div>
+<!-- Vertical Quick Enquiry -->
+<div class="quick-enquiry-tab" onclick="openContact()">
+  <span>Quick Enquiry</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
